@@ -9,7 +9,7 @@ const LoginPage = loadable(() => import('../pages/loginPage'))
 
 // 登录验证
 function requireAuth(Layout, props) {
-    debugger
+    // debugger
   if (true) { // 未登录
       // sessionStorage.setItem('q', 1)
     return <Redirect to="/login" />;
